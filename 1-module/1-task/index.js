@@ -1,7 +1,9 @@
-function factorial(n) {
+function factorial(n){
   let result = 1;
-  while(n) result *= n--;
-  return result;}
-alert(factorial(5));
+  while(n > 0){ 
+  result *= n--;
+}
+return result;
+}
 
 
